@@ -1,0 +1,17 @@
+{
+    "pipeline": [
+      {
+        "type": "readers.las",
+        "filename": "../DATA/Adana/1/1.las"
+      },
+      {
+        "type": "filters.sample",
+        "radius": 0.5
+      },
+      {
+        "type": "writers.las",
+        "filename": "../DATA/Adana/1/1_decimated.las"
+      }
+    ]
+  }
+  

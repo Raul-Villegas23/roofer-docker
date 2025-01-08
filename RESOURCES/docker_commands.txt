@@ -1,0 +1,8 @@
+Pulling the image:
+docker pull 3dgi/roofer:develop
+
+Run the container 
+docker run -it --rm -v C:/Users/raul_/VECTORIZATION/roofer-docker/DATA:/data 3dgi/roofer:develop
+
+Usage:
+roofer /data/Enschede/34FN2_14.LAZ /data/Enschede/9-976-656.gpkg /data/output
