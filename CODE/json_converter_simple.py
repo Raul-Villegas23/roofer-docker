@@ -73,6 +73,6 @@ def update_boundaries_and_vertices(boundary, source_vertices, cityjson, vertex_m
 
 # Example usage
 if __name__ == "__main__":
-     input_folder =  '../DATA/output/tiles'
-     output_file = "../DATA/output/combined.json"
+     input_folder =  'DATA/TAVAS/output/tiles'
+     output_file = "DATA/TAVAS/output/combined.json"
      combine_jsonl_to_cityjson(input_folder, output_file)

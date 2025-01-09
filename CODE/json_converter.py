@@ -74,9 +74,9 @@ def update_boundaries_and_vertices(boundary, source_vertices, cityjson, vertex_m
 # Example usage
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_folder = os.path.abspath(os.path.join(base_dir, "..", "DATA", "output"))  # Adjust to DATA/output
+    data_folder = os.path.abspath(os.path.join(base_dir, "..", "DATA"))  # Adjust to DATA/output
 
-    city_names = ["Enschede", "Almelo", "Baseflow"]  # List of cities
+    city_names = ["TAVAS"]  # List of cities
 
     for city in city_names:
         city_folder = os.path.join(data_folder, city)
